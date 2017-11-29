@@ -202,7 +202,7 @@
 	'303061' : createRaid(60, 60, 'Hector', 1, 0, 'HectorHL.png', ['45'], [1], ['raid'], true),
 	'303071' : createRaid(61, 61, 'Anubis', 1, 0, 'AnubisHL.png', ['46'], [1], ['raid'], true),
 	'303131' : createRaid(62, 62, 'U. Bahamut', 1, 0, 'UBH.png', ['133'], [1], ['raid'], false),
-	'303041' : createRaid(63, 63, 'U. Bahamut (HL)', 1, 0, 'UBHL.png', ['136'], [1], ['raid'], true),
+	'303141' : createRaid(63, 63, 'U. Bahamut (HL)', 1, 0, 'UBHL.png', ['136'], [1], ['raid'], true),
 	
 	
 	
