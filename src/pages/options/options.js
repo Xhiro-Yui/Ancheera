@@ -76,7 +76,15 @@ var raidInfo = {
   '300291' : createRaid('Baha (EX)', '9', false),
   '301051' : createRaid('Grand (EX)', '9', false),
   '300471' : createRaid('Rose (HL)', '9', true),
-  '301061' : createRaid('Baha (HL)', '9', true)
+  '301061' : createRaid('Baha (HL)', '9', true),
+  
+  '303051' : createRaid('Morg (HL)', '10', true),
+  '302751' : createRaid('Prom (HL)', '10', true),
+  '303041' : createRaid('CaOng (HL)', '10', true),
+  '302711' : createRaid('Gilg (HL)', '10', true),
+  '303061' : createRaid('Hector (HL)', '10', true),
+  '303071' : createRaid('Anubis (HL)', '10', true),
+  
 };
 
 var distinctionInfo = {
@@ -181,6 +189,9 @@ var options = [
   '301051',
   '300471',
   '301061',
+  '303051', '302751', '303041',
+  '302711', '303061', '303071',
+  
 
   '20411',
   '20421',
