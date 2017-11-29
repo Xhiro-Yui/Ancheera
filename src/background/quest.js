@@ -96,6 +96,9 @@
 	'302711' : null,
 	'303061' : null,
 	'303071' : null,
+	
+	'303131' : null,
+	'303141' : null,
   };
 
   var createRaid = function(sequence, sequence2, name, max, magDelta, url, animeIDs, animeCounts, animeTypes, isHL) {
@@ -122,6 +125,7 @@
     '300201', '300211', '300221', '300271', '300431', '300461', '300561', '300571',
     '300231', '300241', '300251', '300281', '300401', '300551', '300581', '300591',
     '300291', '301051', '300471', '301061', '303051', '302751', '303041', '302711', '303061', '303071',
+	'303131', '303141',
   
   ];
 
@@ -197,6 +201,9 @@
 	'302711' : createRaid(59, 59, 'Gilgamesh', 1, 0, 'GilgameshHL.png', ['43'], [1], ['raid'], true),
 	'303061' : createRaid(60, 60, 'Hector', 1, 0, 'HectorHL.png', ['45'], [1], ['raid'], true),
 	'303071' : createRaid(61, 61, 'Anubis', 1, 0, 'AnubisHL.png', ['46'], [1], ['raid'], true),
+	'303131' : createRaid(62, 62, 'U. Bahamut', 1, 0, 'UBH.png', ['133'], [1], ['raid'], false),
+	'303041' : createRaid(63, 63, 'U. Bahamut (HL)', 1, 0, 'UBHL.png', ['136'], [1], ['raid'], true),
+	
 	
 	
   };

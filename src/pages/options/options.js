@@ -85,6 +85,9 @@ var raidInfo = {
   '303061' : createRaid('Hector (HL)', '10', true),
   '303071' : createRaid('Anubis (HL)', '10', true),
   
+  '303131' : createRaid('UBH ', '11', true),
+  '303141' : createRaid('UBH (HL)', '11', true),
+  
 };
 
 var distinctionInfo = {
@@ -191,6 +194,7 @@ var options = [
   '301061',
   '303051', '302751', '303041',
   '302711', '303061', '303071',
+  '303131', '303141',
   
 
   '20411',
