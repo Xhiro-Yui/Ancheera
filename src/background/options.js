@@ -17,8 +17,8 @@
     primarchDaily:             false,
     sortRaidsDifficulty:       false,
     copyJapaneseName:          false,
-    windowTheme:               'Anchira Day',
-    notificationTheme:         'Monkey',
+    windowTheme:               'Tiamat Night',
+    notificationTheme:         'Rooster',
     '300011' : false,
     '300021' : false,
     '300031' : true,
@@ -80,6 +80,12 @@
     '301051' : false,
     '300471' : null,
     '301061' : null,
+	'303051' : null,
+	'302751' : null,
+	'303041' : null,
+	'302711' : null, 
+	'303061' : null,
+	'303071' : null,
 
     '20411' : false,
     '20421' : false,
@@ -107,7 +113,10 @@
     '300531', '300541',
     '300561', '300571',
     '300581', '300591',
-    '300471', '301061'
+    '300471', '301061',
+	'303051', '302751',
+	'303041', '302711', 
+	'303061', '303071',
   ];
 
   var isHL = false;

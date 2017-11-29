@@ -90,6 +90,12 @@
     '301051' : null,
     '300471' : null,
     '301061' : null,
+	'303051' : null,
+	'302751' : null,
+	'303041' : null,
+	'302711' : null,
+	'303061' : null,
+	'303071' : null,
   };
 
   var createRaid = function(sequence, sequence2, name, max, magDelta, url, animeIDs, animeCounts, animeTypes, isHL) {
@@ -115,7 +121,8 @@
     '300171', '300181', '300191', '300261', '300391', '301371', '300531', '300541',
     '300201', '300211', '300221', '300271', '300431', '300461', '300561', '300571',
     '300231', '300241', '300251', '300281', '300401', '300551', '300581', '300591',
-    '300291', '301051', '300471', '301061'
+    '300291', '301051', '300471', '301061', '303051', '302751', '303041', '302711', '303061', '303071',
+  
   ];
 
   var currRaidList      = [];
@@ -184,6 +191,14 @@
     '301051' : createRaid(53, 41, 'Grand (EX)', 2, 0, '2040065000_hell.jpg', ['82'], [1], ['raid'], false),
     '300471' : createRaid(54, 48, 'Rose (HL)', 1, 0, '2040105000_high.jpg', ['1204'], [10], ['material'], true),
     '301061' : createRaid(55, 55, 'Bahamut (HL)', 1, 0, '2040128000_hell.jpg', ['59'], [1], ['raid'], true),
+	'303051' : createRaid(56, 56, 'Morrigna', 1, 0, 'MorrignaHL.png', ['44'], [1], ['raid'], true),
+	'302751' : createRaid(57, 57, 'Prometheus', 1, 0, 'PrometheusHL.png', ['41'], [1], ['raid'], true),
+	'303041' : createRaid(58, 58, 'Ca Ong', 1, 0, 'CaOngHL.png', ['42'], [1], ['raid'], true),
+	'302711' : createRaid(59, 59, 'Gilgamesh', 1, 0, 'GilgameshHL.png', ['43'], [1], ['raid'], true),
+	'303061' : createRaid(60, 60, 'Hector', 1, 0, 'HectorHL.png', ['45'], [1], ['raid'], true),
+	'303071' : createRaid(61, 61, 'Anubis', 1, 0, 'AnubisHL.png', ['46'], [1], ['raid'], true),
+	
+	
   };
 
   var tweetHash = {
@@ -279,7 +294,15 @@
     'Lvl 100 Raphael': 'Lv100 ラファエル',
     'Lvl 100 Gabriel': 'Lv100 ガブリエル',
     'Lvl 100 Uriel': 'Lv100 ウリエル',
-    'Lvl 100 Michael': 'Lv100 ミカエル'
+    'Lvl 100 Michael': 'Lv100 ミカエル',
+	'Lvl 120 Morrigna': 'Lv120 バイヴカハ',
+	'Lvl 120 Prometheus': 'Lv120 プロメテウス',
+	'Lvl 120 Ca Ong': 'Lv120 カー・オン',
+	'Lvl 120 Gilgamesh': 'Lv120 ギルガメッシュ',
+	'Lvl 120 Hector': 'Lv120 ヘクトル',
+	'Lvl 120 Anubis': 'Lv120 アヌビス',
+	
+	
   };
 
   var sortByElement = function(a, b) {
